@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 long factorial(int);                                                            // Prototyping
 
 int main()
