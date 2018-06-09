@@ -10,7 +10,7 @@ int main()
     printf("\nEnter a capital alphabet:");
     scanf("%c", &alphabet);
 
-    z = alphabet;                           //Storing Ascii
+    z = alphabet;                            //Storing Ascii
 
     for( x = 'A' ; x <= alphabet ; x++ ){
         for( y = x; y >= 'A' ; y-- ){
