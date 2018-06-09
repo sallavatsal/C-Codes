@@ -25,12 +25,15 @@ int main()
     }
 
     printf("\n");
+    
     while(1){
 
         swapped = 0;
+        
         for(i = 0; i < howMany-1; i++){
 
             if(A[i+1] > A[i]){
+                
                 temp = A[i];
                 A[i] = A[i+1];
                 A[i+1] = temp;
